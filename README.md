@@ -1,100 +1,125 @@
-
 # ApexPlanet Data Analytics Internship
 
-## Task 1: Foundational Setup & Exploratory Data Analysis
+## Overview
 
-### Objective
-Perform data cleaning, preprocessing, exploratory data analysis (EDA), and generate business insights using the Sample Superstore dataset.
+This repository contains the tasks completed during my Data Analytics Internship at ApexPlanet Software Pvt. Ltd.
 
----
-
-## Dataset Information
-
-Dataset Name: Sample Superstore Dataset
-
-Source: Kaggle
-
-Description:
-The dataset contains retail sales transactions including sales, profit, quantity, discount, category, sub-category, region, state, and city information.
+The internship focuses on data cleaning, exploratory data analysis, SQL-based data extraction, business intelligence, and data analytics using Python and SQL.
 
 ---
 
-## Tools & Technologies
+## Task 1: Exploratory Data Analysis (EDA)
 
-- Python
-- Pandas
-- NumPy
-- Matplotlib
-- Seaborn
-- Jupyter Notebook
-- GitHub
+### Objectives
 
----
+* Data Cleaning and Preprocessing
+* Missing Value Analysis
+* Duplicate Detection and Removal
+* Outlier Detection using IQR Method
+* Statistical Analysis
+* Data Visualization
+* Business Insight Generation
 
-## Data Cleaning Steps
+### Dataset
 
-1. Checked dataset structure and dimensions.
-2. Verified missing values.
-3. Identified duplicate records.
-4. Removed duplicates.
-5. Standardized column names.
-6. Performed outlier analysis using IQR method.
-7. Saved cleaned dataset.
+Sample Superstore Dataset
 
----
+### Tools Used
 
-## Exploratory Data Analysis
+* Python
+* Pandas
+* NumPy
+* Matplotlib
+* Seaborn
+* Jupyter Notebook
 
-The following analyses were performed:
+### Key Insights
 
-- Dataset Overview
-- Statistical Summary
-- Category Analysis
-- Region Analysis
-- Missing Value Analysis
-- Duplicate Analysis
-- Outlier Analysis
-
-### Visualizations
-
-- Bar Chart
-- Histogram
-- Boxplot
-- Correlation Heatmap
-- Scatter Plot
+* Office Supplies was the most frequently sold category.
+* West region recorded the highest number of transactions.
+* Sales and Profit showed a positive relationship.
+* Discounts negatively affected profitability.
+* Most sales transactions were concentrated at lower sales values.
 
 ---
 
-## Key Findings
+## Task 2: SQL for Data Analysis
 
-1. Office Supplies is the most frequently sold category.
-2. Most transactions involve relatively low sales amounts.
-3. Sales and Profit have a moderate positive correlation.
-4. Discounts negatively affect profitability.
-5. West region has the highest number of transactions.
-6. Higher sales generally result in higher profits.
+### Objectives
+
+* Database Creation using SQLite
+* Data Import and Management
+* SQL Fundamentals
+* Advanced SQL Analysis
+* Python + SQL Integration
+* Business Intelligence Reporting
+
+### SQL Concepts Covered
+
+#### Fundamentals
+
+* SELECT
+* WHERE
+* ORDER BY
+* LIMIT
+* GROUP BY
+* HAVING
+
+#### Advanced SQL
+
+* Subqueries
+* CTE (WITH)
+* ROW_NUMBER()
+* RANK()
+* LAG()
+* LEAD()
+* Views
+
+### Business Questions Answered
+
+1. Which region generates the highest profit?
+2. Which cities generate the highest sales?
+3. Which category generates the highest sales?
+4. Which category generates the highest profit?
+5. Which sub-categories generate the highest sales?
+6. Which shipping mode is most frequently used?
+7. Which customer segment generates the highest sales?
+8. Which states generate the highest profit?
+9. Which transactions have sales above average?
+10. How do cities rank by total sales?
+
+### Tools Used
+
+* SQLite
+* SQL
+* Python
+* Pandas
+* Jupyter Notebook
 
 ---
 
-## Project Structure
+## Repository Structure
 
+```text
 apexplanet-data-analytics/
 
 ├── data/
-
-│ ├── raw/
-
-│ └── processed/
-
+│   ├── raw/
+│   ├── processed/
+│   └── database/
+│
 ├── notebooks/
-
-├── reports/
-
+│   ├── EDA_Task1.ipynb
+│   └── SQL_Task2.ipynb
+│
 ├── scripts/
-
+│   ├── task2_queries.sql
+│   └── db_utils.py
+│
 ├── dashboards/
-
+├── reports/
 └── README.md
+```
 
 ---
 
@@ -102,5 +127,6 @@ apexplanet-data-analytics/
 
 Sai Ruthvik Singirikonda
 
-ApexPlanet Data Analytics Internship
+Data Analytics Intern
 
+ApexPlanet Software Pvt. Ltd.
