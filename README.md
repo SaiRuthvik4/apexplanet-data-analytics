@@ -122,6 +122,45 @@ apexplanet-data-analytics/
 ```
 
 ---
+## Task 3: Data Visualization & Dashboarding
+
+### Objectives
+
+* Build an interactive Power BI dashboard
+* Analyze sales and profit trends
+* Create KPI cards and business visualizations
+* Implement interactive filters and slicers
+* Perform geographic sales analysis
+
+### Dashboard Components
+
+* Total Sales KPI
+* Total Profit KPI
+* Total Orders KPI
+* Sales by Category
+* Profit by Region
+* Top Sub-Categories by Sales
+* Sales by Segment
+* Sales Distribution by Category
+* State-wise Sales Analysis Map
+
+### Filters Implemented
+
+* Region Filter
+* Category Filter
+* Segment Filter
+
+### Tool Used
+
+* Microsoft Power BI Desktop
+
+### Key Insights
+
+* Technology generated the highest sales.
+* West region generated the highest profit.
+* Consumer segment contributed the highest sales.
+* Phones were the highest-selling sub-category.
+* California and New York were major contributors to sales and profit.
 
 ## Author
 
