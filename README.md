@@ -162,6 +162,67 @@ apexplanet-data-analytics/
 * Phones were the highest-selling sub-category.
 * California and New York were major contributors to sales and profit.
 
+## Task 4: Advanced Analytics & Predictive Modeling
+
+### Objectives
+
+* Perform statistical analysis on business data
+* Conduct hypothesis testing
+* Apply customer segmentation techniques
+* Build a predictive machine learning model
+* Evaluate model performance
+
+### Statistical Analysis
+
+* Mean, Median, Mode
+* Standard Deviation
+* Skewness Analysis
+* Confidence Interval Estimation
+* T-Test
+* Chi-Square Test
+
+### Customer Segmentation
+
+* Feature Scaling using StandardScaler
+* K-Means Clustering
+* Elbow Method
+* PCA Visualization
+* Cluster Profiling
+
+### Predictive Modeling
+
+* Linear Regression
+* Train-Test Split
+* Profit Prediction
+
+### Model Evaluation
+
+* MAE: 59.80
+* RMSE: 250.86
+* R² Score: 0.1741
+
+### Tools Used
+
+* Python
+* Pandas
+* NumPy
+* SciPy
+* Matplotlib
+* Seaborn
+* Scikit-Learn
+
+### Generated Files
+
+* superstore_with_clusters.csv
+* final_task4_dataset.csv
+
+### Key Insights
+
+* Customer records can be segmented into meaningful clusters using K-Means.
+* Sales, quantity, and discount influence profit prediction.
+* PCA helps visualize customer segments effectively.
+* Statistical testing provides deeper business insights.
+
 ## Author
 
 Sai Ruthvik Singirikonda
